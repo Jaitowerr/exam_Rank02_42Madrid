@@ -1,5 +1,7 @@
 Nombre de la tarea: ft_range
+
 Archivos esperados: ft_range.c
+
 Funciones permitidas: malloc
 --------------------------------------------------------------------------------
 
