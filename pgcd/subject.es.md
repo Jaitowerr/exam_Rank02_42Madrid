@@ -1,6 +1,9 @@
 Nombre de la tarea: pgcd
+
 Archivos esperados: pgcd.c
+
 Funciones permitidas: printf, atoi, malloc, free
+
 --------------------------------------------------------------------------------
 
 Escribe un programa que tome dos cadenas representando dos enteros estrictamente positivos
