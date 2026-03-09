@@ -1,7 +1,11 @@
 #include "flood_fill.h"
 
 
+<<<<<<< HEAD
 void  fill(char **tab, t_point size, t_point begin, char target)
+=======
+static void  fill(char **tab, t_point size, t_point begin, char target)
+>>>>>>> d6b8269 (UpDaTe)
 {
     
     if (begin.y < 0 || begin.y >= size.y || begin.x < 0 || begin.x >= size.x)   //Límites del mapa

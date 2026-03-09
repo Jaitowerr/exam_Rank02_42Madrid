@@ -5,22 +5,22 @@
 t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
 {
 	t_list	*cur;
-	int		tmp;
-	int		swapped;
+	int		temp;
+	int		bandera;
 
-	swapped = 1;
-	while (swapped)
+	bandera = 1;
+	while (bandera)
 	{
-		swapped = 0;
+		bandera = 0;
 		cur = lst;
 		while (cur != NULL && cur->next != NULL)
 		{
 			if (!(*cmp)(cur->data, cur->next->data))
 			{
-				tmp = cur->data;
+				temp = cur->data;
 				cur->data = cur->next->data;
-				cur->next->data = tmp;
-				swapped = 1;
+				cur->next->data = temp;
+				bandera = 1;
 			}
 			cur = cur->next;
 		}
